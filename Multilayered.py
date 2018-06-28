@@ -131,9 +131,9 @@ bias: List containing bias matrices.
 decay: Regularization constant. 
 lr_rate: Learning Rate for the NN. 
 """
-    act,pred = forward_pass(np.transpose(x),ww,bb)
+    act,pred = forward_pass(np.transpose(x),weights,bias)
     cost = cost_calc(y,act[-1])
-    errors = error_calc(y,act,ww)      
+    errors = error_calc(y,act,weights)      
     w_grad,b_grad = grad_calc(errors,act,np.transpose(x))
     reg_cost = reg_cost_calc(weights,decay)
     no_of_ex = x.shape[0]
