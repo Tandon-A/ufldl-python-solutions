@@ -19,6 +19,7 @@ Starter Code (Matlab code for reference) : https://github.com/amaas/stanford_dl_
 * [Multilayered Neural Network](https://github.com/Tandon-A/ufldl-python-solutions/blob/master/Multilayered.py)
 * [Convolution and Pooling Operation](https://github.com/Tandon-A/ufldl-python-solutions/blob/master/cnn_conv_pool.py)
 * [CNN Implementation](https://github.com/Tandon-A/ufldl-python-solutions/blob/master/cnn_implementation.py)
+* [PCA](https://github.com/Tandon-A/ufldl-python-solutions/blob/master/PCA.py)
 
 
 ## Author 
